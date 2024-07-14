@@ -1,7 +1,7 @@
 # {auto-animate=true; background-color="#66cccc"}
 
 ::: r-fit-text
-[What did we find?]{.flow}
+[What Did We Find?]{.flow}
 :::
 
 ## Results {auto-animate=true}

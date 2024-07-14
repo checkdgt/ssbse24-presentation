@@ -443,7 +443,7 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
 <section id="section-3" class="title-slide slide level1" data-auto-animate="true;" data-background-color="#66cccc">
 <h1 data-id="quarto-animate-title"></h1>
 <div class="r-fit-text">
-<p><span class="flow">Can UAVs Help?</span></p>
+<p><span class="flow">Can Self-Driving Cars Help?</span></p>
 </div>
 </section>
 <section id="definitely-but" class="slide level2" data-auto-animate="true">
@@ -520,7 +520,7 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
 <section id="section-4" class="title-slide slide level1" data-auto-animate="true;" data-background-color="#66cccc">
 <h1 data-id="quarto-animate-title"></h1>
 <div class="r-fit-text">
-<p><span class="flow">What are we doing to help</span></p>
+<p><span class="flow">What Are We Doing To Help</span></p>
 </div>
 </section>
 <section id="sbft-self-driving-competition" class="slide level2" data-auto-animate="true">
@@ -646,10 +646,12 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
 <h2 data-id="quarto-animate-title">Evolving, one road at a time</h2>
 <ul>
 <li>The goal is to find out-of-bound errors</li>
+<li>We created two approaches</li>
 <li>Using SBFT’24 CPS Tool to run examples¹</li>
 <li>Evolve one map at a time</li>
 <li>Store non-dominated solutions</li>
-<li>Evolve new map or non-dominated solution</li>
+<li>Selection based on 1+1 Evolutionary Algorithm</li>
+<li>Evolve new map or non-dominated solution <img data-src="img/approach/kml_files.svg" class="absolute" style="top: 25%; left: 60%; height: 20%; " alt=".kml"> <img data-src="img/approach/random.svg" class="absolute" style="top: 60%; left: 60%; height: 20%; " alt="random"></li>
 </ul>
 <div class="footer">
 <p>
@@ -800,7 +802,7 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
 <section id="section-6" class="title-slide slide level1" data-auto-animate="true;" data-background-color="#66cccc">
 <h1 data-id="quarto-animate-title"></h1>
 <div class="r-fit-text">
-<p><span class="flow">Validating a road</span></p>
+<p><span class="flow">Validating A Road</span></p>
 </div>
 </section>
 <section id="running-the-road-through-the-sbft-tool" class="slide level2" data-auto-animate="true">
@@ -832,34 +834,6 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
       }</style></aside>
 </section>
 <section id="pass-or-fail" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Pass or fail</h2>
-<ul>
-<li>Save a road that causes a failure</li>
-<li>Add a road to the non-dominated list <img data-src="img/validation/road.svg" class="absolute" style="top: 40%; left: 5%; height: 40%; " alt="random"></li>
-</ul>
-<div class="footer">
-
-</div>
-<aside class="notes">
-<ul>
-<li>Fitness is based on the worse road point</li>
-<li>Finding those with the largest out of bounds percentage</li>
-<li>Fastest velocity the car reached the point at</li>
-<li>And the angle of the steering</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="pass-or-fail-1" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Pass or fail</h2>
 <ul>
 <li>Save a road that causes a failure</li>
@@ -922,7 +896,7 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
 <li>Save a road that causes a failure</li>
 <li>Add a road to the non-dominated list</li>
 <li>Validate the fitness of the road</li>
-<li>Assess road for the non-dominated list <img data-src="img/validation/score.svg" class="absolute" style="top: 40%; left: 0%; height: 40%; " alt="road"> <img data-src="img/approach/right_arrow.svg" class="absolute" style="top: 50%; left: 40%; height: 15%; " alt="arrow"> <img data-src="img/validation/non-dom.svg" class="absolute" style="top: 52%; left: 52%; height: 15%; " alt="non-dom"></li>
+<li>Assess road for the non-dominated list with 1+1 EA <img data-src="img/validation/score.svg" class="absolute" style="top: 40%; left: 0%; height: 40%; " alt="road"> <img data-src="img/approach/right_arrow.svg" class="absolute" style="top: 50%; left: 40%; height: 15%; " alt="arrow"> <img data-src="img/validation/non-dom.svg" class="absolute" style="top: 52%; left: 52%; height: 15%; " alt="non-dom"></li>
 </ul>
 <div class="footer">
 
@@ -975,7 +949,7 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
 <section id="section-7" class="title-slide slide level1" data-auto-animate="true;" data-background-color="#66cccc">
 <h1 data-id="quarto-animate-title"></h1>
 <div class="r-fit-text">
-<p><span class="flow">What did we find?</span></p>
+<p><span class="flow">What Did We Find?</span></p>
 </div>
 </section>
 <section id="results" class="slide level2" data-auto-animate="true">

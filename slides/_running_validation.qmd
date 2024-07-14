@@ -1,7 +1,7 @@
 # {auto-animate=true; background-color="#66cccc"}
 
 ::: r-fit-text
-[Validating a road]{.flow}
+[Validating A Road]{.flow}
 :::
 
 ## Running the road through the SBFT tool {auto-animate=true}
@@ -18,21 +18,6 @@
 :::
 
 ::: {.notes}
-:::
-
-## Pass or fail {auto-animate=true}
-- Save a road that causes a failure
-- Add a road to the non-dominated list
-![random](img/validation/road.svg){.absolute top=40% left=5% height="40%"}
-
-::: footer
-:::
-
-::: {.notes}
-- Fitness is based on the worse road point
-- Finding those with the largest out of bounds percentage
-- Fastest velocity the car reached the point at
-- And the angle of the steering
 :::
 
 ## Pass or fail {auto-animate=true}
@@ -73,7 +58,7 @@
 - Save a road that causes a failure
 - Add a road to the non-dominated list
 - Validate the fitness of the road
-- Assess road for the non-dominated list
+- Assess road for the non-dominated list with 1+1 EA
 ![road](img/validation/score.svg){.absolute top=40% left=0% height="40%"}
 ![arrow](img/approach/right_arrow.svg){.absolute top=50% left=40% height="15%"}
 ![non-dom](img/validation/non-dom.svg){.absolute top=52% left=52% height="15%"}

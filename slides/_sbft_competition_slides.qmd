@@ -1,7 +1,7 @@
 # {auto-animate=true; background-color="#66cccc"}
 
 ::: r-fit-text
-[What are we doing to help]{.flow}
+[What Are We Doing To Help]{.flow}
 :::
 
 ## SBFT Self-Driving Competition {auto-animate=true}

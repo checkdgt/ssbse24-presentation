@@ -27,10 +27,14 @@
 
 ## Evolving, one road at a time {auto-animate=true}
 - The goal is to find out-of-bound errors
+- We created two approaches
 - Using SBFT'24 CPS Tool to run examples¹
 - Evolve one map at a time
 - Store non-dominated solutions
+- Selection based on 1+1 Evolutionary Algorithm
 - Evolve new map or non-dominated solution
+![.kml](img/approach/kml_files.svg){.absolute top=25% left=60% height="20%"}
+![random](img/approach/random.svg){.absolute top=60% left=60% height="20%"}
 
 ::: footer
 <p>1.https://github.com/sbft-cps-tool-competition/cps-tool-competition</p>
