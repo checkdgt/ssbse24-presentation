@@ -1,0 +1,118 @@
+# {auto-animate=true; background-color="#66cccc"}
+
+::: r-fit-text
+[Our Approach]{.flow}
+:::
+
+## Sampling From Real-World Examples {auto-animate=true}
+- Using Google Earth¹
+- Export 1km 'dangerous' road sections to .kml
+- Retrieve road road points from the .kml
+- Datapoints contain gps coordinates
+![export](img/approach/export_to_kml.svg){.absolute top=50% left=15% height="50%"}
+
+::: footer
+<p>1.https://earth.google.com/web/</p>
+:::
+
+::: {.notes}
+- Using google earth
+- Sampled so-called 'dangerous' from around the globe, based on web search for dangerous road locations
+- Fun fact, one is from near where Annibale is from
+- One is from Brazil but fun fact, Brazil is one big dangerous road ^_^
+- We export 25 1km long roads to .kmz files
+- Created a script to load these files and export our road data points
+- Datapoints contain gps coordinates so can be traced back to their real-world examples
+:::
+
+## Evolving, one road at a time {auto-animate=true}
+- The goal is to find out-of-bound errors
+- Using SBFT'24 CPS Tool to run examples¹
+- Evolve one map at a time
+- Store non-dominated solutions
+- Evolve new map or non-dominated solution
+
+::: footer
+<p>1.https://github.com/sbft-cps-tool-competition/cps-tool-competition</p>
+:::
+
+::: {.notes}
+- The goal of the experiment is to find out-of-bound errors
+- This is where a percentage of the car has crossed over the middle line or the outside line of the lane it's driving in by 50% or more
+- We attempt to cause this error by gradually adding more difficulty to roads
+- Roads are stored as non-dominated solutions when a car is successfully validated
+- Randomly select to continue evolving a new road or from the non-dominated list
+:::
+
+## Evolving, one road at a time {auto-animate=true}
+![.kml](img/approach/kml_files.svg){.absolute top=25% left=15% height="20%"}
+![random](img/approach/random.svg){.absolute top=60% left=15% height="20%"}
+
+::: footer
+:::
+
+::: {.notes}
+
+:::
+
+## Evolving, one road at a time {auto-animate=true}
+![.kml](img/approach/kml_files.svg){.absolute top=25% left=10% height="20%"}
+![random](img/approach/random.svg){.absolute top=60% left=10% height="20%"}
+![boundary](img/approach/right_arrow.svg){.absolute top=45% left=25% height="15%"}
+![boundary](img/approach/boundary.svg){.absolute top=30% left=40% height="40%"}
+
+::: footer
+:::
+
+::: {.notes}
+
+:::
+
+## Evolving, one road at a time {auto-animate=true}
+![.kml](img/approach/kml_files.svg){.absolute top=25% left=10% height="20%"}
+![random](img/approach/random.svg){.absolute top=60% left=10% height="20%"}
+![boundary](img/approach/right_arrow.svg){.absolute top=45% left=25% height="15%"}
+![boundary](img/approach/boundary_road.svg){.absolute top=30% left=40% height="40%"}
+
+::: footer
+:::
+
+::: {.notes}
+
+:::
+
+## Evolving, one road at a time {auto-animate=true}
+![.kml](img/approach/kml_files.svg){.absolute top=25% left=10% height="20%"}
+![random](img/approach/random.svg){.absolute top=60% left=10% height="20%"}
+![boundary](img/approach/right_arrow.svg){.absolute top=45% left=25% height="15%"}
+![boundary](img/approach/move_points.svg){.absolute top=30% left=40% height="40%"}
+
+::: footer
+:::
+
+::: {.notes}
+:::
+
+## Evolving, one road at a time {auto-animate=true}
+![.kml](img/approach/kml_files.svg){.absolute top=25% left=10% height="20%"}
+![random](img/approach/random.svg){.absolute top=60% left=10% height="20%"}
+![boundary](img/approach/right_arrow.svg){.absolute top=45% left=25% height="15%"}
+![boundary](img/approach/del_point.svg){.absolute top=30% left=40% height="40%"}
+
+::: footer
+:::
+
+::: {.notes}
+:::
+
+## Evolving, one road at a time {auto-animate=true}
+![.kml](img/approach/kml_files.svg){.absolute top=25% left=10% height="20%"}
+![random](img/approach/random.svg){.absolute top=60% left=10% height="20%"}
+![boundary](img/approach/right_arrow.svg){.absolute top=45% left=25% height="15%"}
+![boundary](img/approach/add_point.svg){.absolute top=30% left=40% height="40%"}
+
+::: footer
+:::
+
+::: {.notes}
+:::

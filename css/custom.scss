@@ -1,0 +1,89 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400,700);
+
+// fonts
+$font-family-sans-serif: "Lato", sans-serif !default;
+$font-family-serif: "Lato", serif !default;
+$font-family-monospace: "Fira Mono", monospace !default;
+
+// colours
+$body-bg: #C3E0EA;
+$link-color: #0c629b;
+$body-color: #000 !default;
+$code-block-bg: #f2f2f2;
+$code-block-font-size: 0.7em;
+
+/*-- scss:rules --*/
+
+.remark-slide-content h1 {
+  margin-bottom: .25em !important;
+}
+
+h1.title {
+  font-family: "Fira Mono";
+  font-size: 46px;
+}
+
+h1.exclaim {
+  font-family: "Fira Mono";
+  font-size: 90px;
+  padding-top: 200px;
+}
+
+h2.subtitle {
+  font-family: "Fira Mono";
+  font-size: 30px;
+}
+
+h3.author {
+  color: #000080;
+}
+
+h3.institution {
+  color: #1F305E;
+}
+
+.reveal .slide-logo {
+  bottom: 10px !important;
+  right: 10px !important;
+  top: unset !important;
+  max-height: unset !important;
+  height: 100px !important;
+}
+
+.reveal h2 {
+  font-family: "Fira Mono";
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+.reveal.smaller .slides h2 {
+  font-family: "Fira Mono";
+  font-size: 60px;
+  padding-top: 100px;
+}
+.reveal li {
+  font-family: "Fira Mono";
+  font-size: 30px;
+}
+
+.flow {
+  background-image: url('powderhorn.jpg');
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+	  animation: animate 40s linear infinite;
+	  font-weight: 900;
+}
+
+@keyframes animate {
+	0% {
+		background-position: left 0px top 10px;
+	}
+	40% {
+		background-position: left 800px top 10px;
+	}
+}

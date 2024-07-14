@@ -1,0 +1,47 @@
+# {auto-animate=true; background-color="#66cccc"}
+
+::: r-fit-text
+[The Problem]{.flow}
+:::
+
+## The Problem {auto-animate=true}
+- Driving is dangerous
+- National Highway Traffic Safety Administration (NHTSA)¹
+![](img/driving/fatalities_by_year_d_jknypp.png){.absolute top=30% right=10% height="60%"}
+
+::: footer
+<p>1.https://www.valuepenguin.com/car-accident-statistics</p>
+:::
+
+::: {.notes}
+- Tesla failures have a lot to do with camera issues
+- Waymo increased in the Phoenix area of Arizona USA
+:::
+
+## The Problem {auto-animate=true}
+- Driving is dangerous
+- National Highway Traffic Safety Administration (NHTSA)¹
+- [DUI]{style="color: red"}
+- [Speeding]{style="color: red"}
+- [Seatbelt Nonuse]{style="color: red"}
+- [Distracted Driving]{style="color: red"}
+- [Hit-And-Run]{style="color: red"}
+- [Drowziness]{style="color: red"}
+![](img/driving/fatalities_by_year_d_jknypp.png){.absolute top=30% right=10% height="60%"}
+
+::: footer
+<p>1.https://www.valuepenguin.com/car-accident-statistics</p>
+:::
+
+::: {.notes}
+- Tesla failures have a lot to do with camera issues
+- Waymo increased in the Phoenix area of Arizona USA
+:::
+
+# {auto-animate=true}
+
+::: r-fit-text
+
+<h1 class='exclaim'> Nearly 1 in 10 fatal accidents are caused by distracted driving! </h1>
+
+:::

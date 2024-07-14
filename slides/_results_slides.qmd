@@ -1,0 +1,17 @@
+# {auto-animate=true; background-color="#66cccc"}
+
+::: r-fit-text
+[What did we find?]{.flow}
+:::
+
+## Results {auto-animate=true}
+- Real-world seeding saw five times more failing scenarios
+- 30% more valid roads compared to random seeding
+![failures](img/validation/failures.png){.absolute top=41% left=10% height="40%"}
+![failures](img/validation/valid.png){.absolute top=40% left=45% height="40%"}
+
+::: footer
+:::
+
+::: {.notes}
+:::

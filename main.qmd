@@ -1,0 +1,63 @@
+---
+format:
+    revealjs:
+        transition: slide
+        slide-number: true
+        smaller: true
+        logo: "img/backgrounds/TUDelft_logo_cmyk.png"
+        css: "css/logo.css"
+        theme: ["default", "css/custom.scss"]
+        auto-stretch: false
+        auto-play-media: true
+        background-transition: fade
+        center-title-slide: false
+        fig-align: center
+        height: 1080
+        width: 1920
+---
+
+##  {background-image="img/title-page/powderhorn_2.jpg" background-size="contain" background-position="left"}
+
+::: columns
+::: {.column width="40%"}
+:::
+
+::: {.column width="60%"}
+::: r-fit-text
+
+<h1 class="title"> Danger Is My Middle Lane </h1>
+<h2 class="subtitle"> ↪ Simulations From Real-World Dangerous Roads </h2>
+
+---
+<h3 class="author"> ↪ Antony Bartlett </h3>
+<h3 class="author"> ↪ Annibale Panichella ⤵</h3>
+
+<h3 class="institution"> University of Delft, The Netherlands </h3>
+
+<br>
+
+::: {.column width="30%"}
+![](img/title-page/COSMOS_logo_deliverable_cover.png)
+:::
+::: {.column width="40%"}
+![](img/title-page/beamng.png)
+:::
+:::
+:::
+:::
+
+![](img/title-page/ssbse-circular-icon.png){.absolute top=85% right=3% height="15%"}
+
+{{< include slides/_problem_1_slides.qmd >}}
+
+{{< include slides/_problem_2_slides.qmd >}}
+
+{{< include slides/_sbft_competition_slides.qmd >}}
+
+{{< include slides/_our_approach.qmd >}}
+
+{{< include slides/_running_validation.qmd >}}
+
+{{< include slides/_results_slides.qmd >}}
+
+{{< include slides/_end.qmd >}}

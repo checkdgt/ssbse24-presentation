@@ -1,0 +1,45 @@
+# {auto-animate=true; background-color="#66cccc"}
+
+::: r-fit-text
+[What are we doing to help]{.flow}
+:::
+
+## SBFT Self-Driving Competition {auto-animate=true}
+- Simulation based testing
+- Generate roads for validation in BeamNG¹
+- SBFT competition tool²
+![](img/driving/beam-1.png){.absolute top=45% right=10% height="40%"}
+
+::: footer
+<p>1.https://beamng.tech</p>
+<p>2.https://github.com/sbft-cps-tool-competition/cps-tool-competition</p>
+
+:::
+
+::: {.notes}
+- Simulation based testing offers a cheaper alternative for validating models
+- Allows us to quickly generate and validate various road combinations
+- Tools such as BeamNG and Carla allow us to effectively achieve this
+:::
+
+## SBFT Self-Driving Competition {auto-animate=true}
+- Simulation based testing
+- Generate roads for validation in BeamNG¹
+- SBFT competition tool²
+- EvoMBT - Extended Finite State Machines³
+- RIGAA - Reinforcement learning and evolutionary algorithms⁴
+- RoadSign - Seeding with MOO process⁵
+![](img/driving/beam-1.png){.absolute top=45% right=10% height="40%"}
+
+::: footer
+<p>1.https://beamng.tech</p>
+<p>2.https://github.com/sbft-cps-tool-competition/cps-tool-competition</p>
+<p>2.https://ieeexplore.ieee.org/document/10190390</p>
+<p>3.https://ieeexplore.ieee.org/document/10190408</p>
+<p>4.https://ieeexplore.ieee.org/document/10190387</p>
+:::
+
+::: {.notes}
+- However, despite these methods, it is still common to create the starting points via random generation
+- And then iteratively optimizing those generated points.
+:::

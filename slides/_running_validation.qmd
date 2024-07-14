@@ -1,0 +1,102 @@
+# {auto-animate=true; background-color="#66cccc"}
+
+::: r-fit-text
+[Validating a road]{.flow}
+:::
+
+## Running the road through the SBFT tool {auto-animate=true}
+- SBFT tool validates if the road is valid
+- No intersection
+- No corners too sharp
+- Runs the road in BeamNG simulator
+- Allow for <50% OOB
+- Max speed 85 km/h
+- AI aggression 1.0
+![boundary](img/approach/trimmed_auto.mov){.absolute top=30% left=35% height="55%"}
+
+::: footer
+:::
+
+::: {.notes}
+:::
+
+## Pass or fail {auto-animate=true}
+- Save a road that causes a failure
+- Add a road to the non-dominated list
+![random](img/validation/road.svg){.absolute top=40% left=5% height="40%"}
+
+::: footer
+:::
+
+::: {.notes}
+- Fitness is based on the worse road point
+- Finding those with the largest out of bounds percentage
+- Fastest velocity the car reached the point at
+- And the angle of the steering
+:::
+
+## Pass or fail {auto-animate=true}
+- Save a road that causes a failure
+- Add a road to the non-dominated list
+![road](img/validation/road.svg){.absolute top=40% left=5% height="40%"}
+![arrow](img/approach/right_arrow.svg){.absolute top=50% left=40% height="15%"}
+![store](img/validation/store.svg){.absolute top=41% left=53% height="15%"}
+![non-dom](img/validation/non-dom.svg){.absolute top=62% left=52% height="15%"}
+
+::: footer
+:::
+
+::: {.notes}
+- Fitness is based on the worse road point
+- Finding those with the largest out of bounds percentage
+- Fastest velocity the car reached the point at
+- And the angle of the steering
+:::
+
+## Retrieve fitness {auto-animate=true}
+- Save a road that causes a failure
+- Add a road to the non-dominated list
+- Validate the fitness of the road
+![road](img/validation/score.svg){.absolute top=40% left=5% height="40%"}
+
+::: footer
+:::
+
+::: {.notes}
+- Fitness is based on the worse road point
+- Finding those with the largest out of bounds percentage
+- Fastest velocity the car reached the point at
+- And the angle of the steering
+:::
+
+## Update non-dominated list {auto-animate=true}
+- Save a road that causes a failure
+- Add a road to the non-dominated list
+- Validate the fitness of the road
+- Assess road for the non-dominated list
+![road](img/validation/score.svg){.absolute top=40% left=0% height="40%"}
+![arrow](img/approach/right_arrow.svg){.absolute top=50% left=40% height="15%"}
+![non-dom](img/validation/non-dom.svg){.absolute top=52% left=52% height="15%"}
+
+::: footer
+:::
+
+::: {.notes}
+- Loop through existing roads in non-dom list
+- If the new road dominates on 1 or 2 points then it is added to the list
+- If the new road dominates on all 3 points, the old road is removed and the new added
+- If the new road doesn't dominate the old in any way then it is not added
+:::
+
+## Rinse and repeat {auto-animate=true}
+- Start the test over
+- Randomly choose to evolve a new road
+- Or one from the non-dominated list
+- Repeat for 8 hours
+![repeat](img/validation/repeat.svg){.absolute top=40% left=40% height="40%"}
+
+::: footer
+:::
+
+::: {.notes}
+:::
