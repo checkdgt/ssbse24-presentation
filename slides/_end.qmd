@@ -1,3 +1,4 @@
 # Thank you {background-image="img/backgrounds/neon.png"}
-![](img/end/questions.gif){.absolute top=10% left=15% height="100%"}
-
+![](img/end/questions.gif){.absolute top=20% left=10% height="60%"}
+![](img/end/presentation.svg){.absolute top=40% left=70% height="40%"}
+![](img/end/quarto.png){.absolute top=32% left=71% height="7%"}
