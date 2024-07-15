@@ -920,6 +920,36 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
           display:block!important;
       }</style></aside>
 </section>
+<section id="update-non-dominated-list-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Update non-dominated list</h2>
+<ul>
+<li>Fitness based on points:</li>
+<li>OOB Percentage</li>
+<li>Velocity</li>
+<li>Angle <img data-src="img/validation/score.svg" class="absolute" style="top: 40%; left: 0%; height: 40%; " alt="road"> <img data-src="img/approach/right_arrow.svg" class="absolute" style="top: 50%; left: 40%; height: 15%; " alt="arrow"> <img data-src="img/validation/fitness.svg" class="absolute" style="top: 40%; left: 50%; height: 40%; " alt="non-dom"></li>
+</ul>
+<div class="footer">
+
+</div>
+<aside class="notes">
+<ul>
+<li>Loop through existing roads in non-dom list</li>
+<li>If the new road dominates on 1 or 2 points then it is added to the list</li>
+<li>If the new road dominates on all 3 points, the old road is removed and the new added</li>
+<li>If the new road doesn’t dominate the old in any way then it is not added</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="rinse-and-repeat" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Rinse and repeat</h2>
 <ul>
