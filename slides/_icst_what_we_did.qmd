@@ -22,9 +22,13 @@
 :::
 
 ## Model Implementation {auto-animate=true}
-- Model extendes and unfreezes the last 4 layes of VGG16
+- Chose VGG16 over other CNNs
+- Model extends and unfreezes the last 4 layers of VGG16
 - Added some extra layers for our specific case
 - Various models were attempted
+- Training/ Validation with ~30K roads
+- Augmented data inline (rotate/ flip)
+
 ![](img/icst/model.png){.absolute top=35% right=5% height="30%"}
 
 

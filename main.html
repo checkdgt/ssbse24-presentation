@@ -996,7 +996,8 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
 <li>Start the test over</li>
 <li>Randomly choose to evolve a new road</li>
 <li>Or one from the non-dominated list</li>
-<li>Repeat for 8 hours <img data-src="img/validation/repeat.svg" class="absolute" style="top: 40%; left: 40%; height: 40%; " alt="repeat"></li>
+<li>Repeat for 8 hours</li>
+<li>8 full test iterations <img data-src="img/validation/repeat.svg" class="absolute" style="top: 40%; left: 40%; height: 40%; " alt="repeat"></li>
 </ul>
 <div class="footer">
 
@@ -1216,10 +1217,14 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
 <section id="model-implementation" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Model Implementation</h2>
 <ul>
-<li>Model extendes and unfreezes the last 4 layes of VGG16</li>
+<li>Chose VGG16 over other CNNs</li>
+<li>Model extends and unfreezes the last 4 layers of VGG16</li>
 <li>Added some extra layers for our specific case</li>
-<li>Various models were attempted <img data-src="img/icst/model.png" class="absolute" style="top: 35%; right: 5%; height: 30%; "></li>
+<li>Various models were attempted</li>
+<li>Training/ Validation with ~30K roads</li>
+<li>Augmented data inline (rotate/ flip)</li>
 </ul>
+<p><img data-src="img/icst/model.png" class="absolute" style="top: 35%; right: 5%; height: 30%; "></p>
 <aside class="notes">
 <ul>
 <li>However, despite these methods, it is still common to create the starting points via random generation</li>
@@ -1247,6 +1252,8 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
 <section id="model-prediction" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Model Prediction</h2>
 <ul>
+<li>Given just an ID and Road Points</li>
+<li>Create image from Road Points</li>
 <li>Image recognition model used for selection</li>
 <li>Gives prediction on whether road could fail</li>
 <li>Take test cases with a prediction greater than 0.6</li>
@@ -1277,7 +1284,6 @@ Nearly 1 in 10 fatal accidents are caused by distracted driving!
 <li>Utilize greedy selection to create a diverse set of test case</li>
 <li>Starts with a random road (test case)</li>
 <li>Compares incremental diversity for selected cases against stored selection</li>
-<li>Stop when diversity threshold (0.9) is no longer met</li>
 <li>Return selected cases to the evaluator <img data-src="img/icst/greedy-solution.svg" class="absolute" style="top: 35%; right: 5%; height: 50%; "></li>
 </ul>
 <aside class="notes">

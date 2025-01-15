@@ -5,6 +5,8 @@
 :::
 
 ## Model Prediction {auto-animate=true}
+- Given just an ID and Road Points
+- Create image from Road Points
 - Image recognition model used for selection
 - Gives prediction on whether road could fail
 - Take test cases with a prediction greater than 0.6
@@ -23,7 +25,6 @@
 - Utilize greedy selection to create a diverse set of test case
 - Starts with a random road (test case)
 - Compares incremental diversity for selected cases against stored selection 
-- Stop when diversity threshold (0.9) is no longer met
 - Return selected cases to the evaluator
 ![](img/icst/greedy-solution.svg){.absolute top=35% right=5% height="50%"}
 
