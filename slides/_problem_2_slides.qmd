@@ -11,7 +11,7 @@
 ![](img/driving/Tesla-Model-3-FSD-camera-fail-scaled.jpeg){.absolute top=10% right=10% height="80%"}
 
 ::: footer
-<p>1.https://cleantechnica.com/2024/04/16/recent-tesla-full-self-driving-fails-just-a-blip-in-the-progress-or-endemic/</p>
+<p>1.https://cleantechnica.com/2024/04/16/recent-tesla-full-self-driving-fails-just-a-blip-in-the-progress-or-endemic</p>
 <p>2.https://www.theguardian.com/technology/2023/nov/08/cruise-recall-self-driving-cars-gm</p>
 :::
 
@@ -28,7 +28,7 @@
 ![](img/driving/waymo_driving.gif){.absolute top=40% right=10% height="40%"}
 
 ::: footer
-<p>1.https://cleantechnica.com/2024/04/16/recent-tesla-full-self-driving-fails-just-a-blip-in-the-progress-or-endemic/</p>
+<p>1.https://cleantechnica.com/2024/04/16/recent-tesla-full-self-driving-fails-just-a-blip-in-the-progress-or-endemic</p>
 <p>2.https://www.theguardian.com/technology/2023/nov/08/cruise-recall-self-driving-cars-gm</p>
 <p>3.https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_379fbde2-98c5-4dfd-b381-67817f2bda9f</p>
 :::
@@ -37,5 +37,28 @@
 - Tesla failures have a lot to do with camera issues
 - Waymo increased in the Phoenix area of Arizona USA
 - Tesla doesn't use lidar in its vehicles and musk has been outspoken about not using it
-- Watmo however does use lidar
+- Waymo however does use lidar
+:::
+
+## Definitely, but... {auto-animate=true}
+- We're still a long way from full self-driving
+- Many news stories regarding Tesla FSD failures¹
+- Cruise had a large re-call of their cars²
+- [Waymo ramped up though]{style="color: green"}³
+- [A recent analysis on Waymo showed a significant (90%) decrease in road accidents]{style="color: green"}⁴
+![](img/driving/waymo_driving.gif){.absolute top=45% right=10% height="40%"}
+
+::: footer
+<p>1.https://cleantechnica.com/2024/04/16/recent-tesla-full-self-driving-fails-just-a-blip-in-the-progress-or-endemic</p>
+<p>2.https://www.theguardian.com/technology/2023/nov/08/cruise-recall-self-driving-cars-gm</p>
+<p>3.https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_379fbde2-98c5-4dfd-b381-67817f2bda9f</p>
+<p>4.https://futuretransport-news.com/waymo-and-swiss-re-analyse-safety-benefits-of-autonomous-vehicles</p>
+:::
+
+::: {.notes}
+- Tesla failures have a lot to do with camera issues
+- Waymo increased in the Phoenix area of Arizona USA
+- Tesla doesn't use lidar in its vehicles and musk has been outspoken about not using it
+- Waymo however does use lidar
+- Waymo, over the same distance as a human driver made far less claims
 :::

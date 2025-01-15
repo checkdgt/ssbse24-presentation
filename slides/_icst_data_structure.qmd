@@ -1,0 +1,35 @@
+# {auto-animate=true; background-color="#66cccc"}
+
+::: r-fit-text
+[What Data Are We Working With]{.flow}
+:::
+
+## Generated Road Data {auto-animate=true}
+- Roads generated in a 200x200 meter arena
+- Given road data for evaluating our Tools
+- Key elements for pass/ fail and road points
+![](img/icst/data_example.png){.absolute top=10% right=2% height="80%"}
+
+::: {.notes}
+- Simulation based testing offers a cheaper alternative for validating models
+- Allows us to quickly generate and validate various road combinations
+- Tools such as BeamNG and Carla allow us to effectively achieve this
+:::
+
+## Competition Tool & Validation Data {auto-animate=true}
+- Everything is dockerized
+- Uses gRPC as a connectivity framework¹
+- Ensures all tools adhere to the same protocol for better evaluation
+- Language independent
+- Limited set of data given for evaluation
+- Random selection tool given as baseline
+![](img/icst/data_example.png){.absolute top=10% right=2% height="80%"}
+
+::: footer
+<p>1.https://grpc.io/</p>
+:::
+
+::: {.notes}
+- However, despite these methods, it is still common to create the starting points via random generation
+- And then iteratively optimizing those generated points.
+:::

@@ -1,0 +1,34 @@
+# {auto-animate=true; background-color="#66cccc"}
+
+::: r-fit-text
+[So How Does Our Tool Work?!]{.flow}
+:::
+
+## Image Recognition (FTW?) {auto-animate=true}
+- We implemented an image recognition model for selection
+- Extends VGG16 model
+- Uses an input of 224x224 pixels as input
+- Dataset comprised of road images
+- Road images plotted from road points with matplotlib
+- Other image modules worked poorly (PIL)
+
+![](img/icst/test.png){.absolute top=30% right=5% height="40%"}
+
+
+::: {.notes}
+- Simulation based testing offers a cheaper alternative for validating models
+- Allows us to quickly generate and validate various road combinations
+- Tools such as BeamNG and Carla allow us to effectively achieve this
+:::
+
+## Model Implementation {auto-animate=true}
+- Model extendes and unfreezes the last 4 layes of VGG16
+- Added some extra layers for our specific case
+- Various models were attempted
+![](img/icst/model.png){.absolute top=35% right=5% height="30%"}
+
+
+::: {.notes}
+- However, despite these methods, it is still common to create the starting points via random generation
+- And then iteratively optimizing those generated points.
+:::

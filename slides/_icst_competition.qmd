@@ -1,0 +1,38 @@
+# {auto-animate=true; background-color="#66cccc"}
+
+::: r-fit-text
+[Creating Roads Is Only Part Of It]{.flow}
+:::
+
+## ICST/ SBFT Self-Driving Car Test Suite Regression Competition {auto-animate=true}
+- New this year
+- Competition to create optimized regression suites¹
+- Uses road data as discussed in the SSBSE work
+![](img/icst/icst.png){.absolute top=45% right=10% height="40%"}
+
+::: footer
+<p>1.https://github.com/christianbirchler-org/sdc-testing-competition</p>
+:::
+
+::: {.notes}
+- Simulation based testing offers a cheaper alternative for validating models
+- Allows us to quickly generate and validate various road combinations
+- Tools such as BeamNG and Carla allow us to effectively achieve this
+:::
+
+## Competition goal {auto-animate=true}
+- Create tool to predict failures
+- Generate regression suites¹
+- Use dataset on road passes and failures
+- Ensure diversity of test cases
+- Ensure regression suite executes in a timely manner
+![](img/icst/icst.png){.absolute top=45% right=10% height="40%"}
+
+::: footer
+<p>1.https://github.com/christianbirchler-org/sdc-testing-competition</p>
+:::
+
+::: {.notes}
+- However, despite these methods, it is still common to create the starting points via random generation
+- And then iteratively optimizing those generated points.
+:::

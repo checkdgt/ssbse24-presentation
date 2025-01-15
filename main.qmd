@@ -60,4 +60,12 @@ format:
 
 {{< include slides/_results_slides.qmd >}}
 
+{{< include slides/_icst_competition.qmd >}}
+
+{{< include slides/_icst_data_structure.qmd >}}
+
+{{< include slides/_icst_what_we_did.qmd >}}
+
+{{< include slides/_icst_greedy.qmd >}}
+
 {{< include slides/_end.qmd >}}
